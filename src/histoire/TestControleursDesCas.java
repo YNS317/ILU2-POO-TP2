@@ -16,7 +16,7 @@ import villagegaulois.Village;
 public class TestControleursDesCas {
 	public static void main(String[] args) {
 
-		//TODO decommenter les cas au fur et a mesure que vous avancez dans le TP
+		// decommenter les cas au fur et a mesure que vous avancez dans le TP
 		
 		Village village = new Village("le village des irréductibles", 10, 5);
 		Chef abraracourcix = new Chef("Abraracourcix", 10, village);
@@ -27,7 +27,7 @@ public class TestControleursDesCas {
 		ControlAfficherVillage controlAfficherVillage = new ControlAfficherVillage(
 				village);
 
-		 //Cas 2 : Emmenager
+		// Cas 2 : Emmenager
 
 		System.out.println("Cas 2 : Emmenager");
 		ControlEmmenager controlEmmenager = new ControlEmmenager(village);
@@ -149,11 +149,12 @@ public class TestControleursDesCas {
 		// Cas 7 : Afficher marche
 
 		System.out.println("///////////////////////////////");
-		System.out.println("Cas 7 : Afficher Marche");		ControlAfficherMarche controlAfficherMarche = new ControlAfficherMarche(
+		System.out.println("Cas 7 : Afficher Marche");
+		ControlAfficherMarche controlAfficherMarche = new ControlAfficherMarche(
 				village);
 		controlPrendreEtal.prendreEtal("Obelix", "menhirs", 3);
 		controlPrendreEtal.prendreEtal("Asterix", "poissons", 10);
-		String[] marche = controlAfficherMarche.donnerInfosMarche();
+		String[] marche = controlAfficherMarche.donnerinfosMarche();
 		for (String etal : marche) {
 			System.out.println(etal);
 		}
