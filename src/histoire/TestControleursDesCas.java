@@ -1,6 +1,7 @@
 package histoire;
 
 import controleur.ControlAcheterProduit;
+
 import controleur.ControlAfficherMarche;
 import controleur.ControlAfficherVillage;
 import controleur.ControlEmmenager;
@@ -122,7 +123,7 @@ public class TestControleursDesCas {
 		System.out.println("[2] : produit vendu");
 		System.out.println(
 				"[3] : quantité de produit à vendre au début du marché");
-		System.out.println("[4] : quantité de produit vendu");/		for (String string : ventesObelix) {
+		System.out.println("[4] : quantité de produit vendu");		for (String string : ventesObelix) {
 			System.out.println(string);
 		}
 		String[] ventesIntrus = controlLibererEtal.libererEtal("Intrus");

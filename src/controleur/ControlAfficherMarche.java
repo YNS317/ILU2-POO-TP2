@@ -1,4 +1,4 @@
- package controleur;
+package controleur;
 
 import villagegaulois.Village;
 
@@ -9,7 +9,7 @@ public class ControlAfficherMarche {
 		this.village = village;
 	}
 
-	public String[] donneeInfoMarche() {
+	public String[] donnerInfosMarche() {
 		return village.donnerEtatMarche();
 	}
 }
